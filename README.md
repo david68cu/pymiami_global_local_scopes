@@ -23,8 +23,20 @@ ex1_local.py
 
 - ex3_local.py 
 
-  locals() will
+  The content of locals and globals will depend on where you call them.
+  ex3_local.py  example will show that the content of globals() will be the same to locals() in some points 
+  Also locals() will autoupdate each time we created new local() scope variables in function or classes
   
+-ex5_locals_vs_globals.py
+
+  Variabes created outside  a functions are globals
+  Variables created inside a functions are locals
+   A variable created outside of a function is global and can be used by anyone
+  
+- ex6_globals
+
+   If you use the global keyword, the variable belongs to the global scope
+
 
 
 ### References

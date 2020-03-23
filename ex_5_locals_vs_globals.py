@@ -1,5 +1,5 @@
 """
-Varaibes created outside  a functions are globals
+Variabes created outside  a functions are globals
 variable created inside a functions are locals
 
 A variable created outside of a function is global and can be used by anyone:
