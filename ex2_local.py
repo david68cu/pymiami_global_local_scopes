@@ -14,7 +14,7 @@ print(globals() == locals())
 def myfunc():
     x = 300
     print(x)
-    print("Locals inside myfunc() =", locals()) # => {'x': 300}
+    print("Locals inside myfunc() =", locals())  # => {'x': 300}
     print("Globals inside myfunc() =", globals())
     print(globals() == locals())
 

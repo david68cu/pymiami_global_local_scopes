@@ -13,10 +13,10 @@ print(globals() == locals())
 
 
 def myfunc():
-    print("locals 1:", locals())   # locals() is empty
+    print("locals 1:", locals())  # locals() is empty
     x = 1
-    print("locals 2:", locals())   # {'x': 1}
-    print(globals() == locals())   # False
+    print("locals 2:", locals())  # {'x': 1}
+    print(globals() == locals())  # False
 
 
 myfunc()
@@ -24,7 +24,9 @@ myfunc()
 
 class Test:
     def __init__(self):
-        print("locals inside Test:", locals())  # {'self': <__main__.Test object at 0x10338ccd0>}
+        print(
+            "locals inside Test:", locals()
+        )  # {'self': <__main__.Test object at 0x10338ccd0>}
 
 
 if __name__ == "__main__":
